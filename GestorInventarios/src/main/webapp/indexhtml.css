@@ -1,0 +1,72 @@
+body {
+   background-image: url('https://www.xtrafondos.com/wallpapers/estructura-abstracta-3d-gris-oscuro-3593.jpg');
+   font-family: 'Roboto', sans-serif;
+   background-color: #f9f9f9;
+   margin: 0;
+   background-size: cover;
+   background-position: center;
+}
+.form_paragraph{
+    font-size: 2.5em;
+    color: #ffffff;
+    background-image: url('https://www.xtrafondos.com/wallpapers/estructura-abstracta-3d-gris-oscuro-3593.jpg');
+    font-family: 'Roboto', sans-serif;
+    max-width: 900px;
+    margin: 5px auto;
+    margin-top: 2%;
+    padding: 80px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative; 
+}
+.ContTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.titulo{
+    width: 100%;
+    background-image: url('https://www.xtrafondos.com/wallpapers/geometria-3d-3586.jpg');
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+}
+.titulo_tittle{
+    font-size: 50px;
+}
+.botones{
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  width: 100px;
+  margin-right: 4.5%;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.botones button {
+  float: right;
+  margin-right: 10px;
+  height: 30px; 
+}
+button[type="submit"] {
+    
+    background-color: #01003E;
+    color: #fff;
+    padding: 0px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #5D6AC2;
+}

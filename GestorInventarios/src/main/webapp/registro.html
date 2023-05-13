@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ingresar</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="registrocss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form method="post" action="regis" onsubmit="return validar()">
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="ej: pulgarcito"><br><br>
+            
+             <label for="nombre">Número de identificación:</label>
+            <input type="number" id="identi" name="identi" placeholder="ej: 34325231"><br><br>
+
+            <label for="Correo">Correo: </label>
+            <input type="email" id="Correo" name="Correo" placeholder="ej: pulgarcito@gmail.com"><br><br>
+
+            <label for="contrasena">Contraseña: </label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="ej: 1234"><br><br>
+            
+            <button type="submit">registrar</button><br>
+            <p><a href="logeo.jsp">Iniciar sesion</a></p>
+        </form>
+    </body>
+    
+    <script>
+            function validar() {
+                var nombre = document.getElementById("nombre").value;
+                var numIde = document.getElementById("identi").value;
+                var correo = document.getElementById("Correo").value;
+                var contrasena = document.getElementById("contrasena").value;
+                
+                if (nombre.length === 0 || correo.length === 0 || contrasena.length === 0){
+                    alert('No hay datos para el registro');
+                    return false;
+                }
+                return true;
+            }
+    </script>
+</html>

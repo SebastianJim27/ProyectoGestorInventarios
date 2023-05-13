@@ -1,0 +1,80 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+body {
+    background-image: url('https://ariesonline.com.ar/download/multimedia.grande.bef04040ccb125a1.4e6f63696f6e65732d792d7265636f6d656e646163696f6e65732d706172612d5f6772616e64652e6a7067.jpg');
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    background-size: cover;
+   background-position: center;
+}
+
+form {
+    background-color: rgba(0,0,0,0);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 85vh;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-family: 'Playfair Display', serif;
+    color:#000000;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="date"], select[id="tInventario"] {
+    
+    width: 290px; 
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+}
+button[type="submit"] {
+    background-color: #0099cc;
+    color:#ffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.boton{
+    margin-right: 10px;
+}
+button[type="submit"]:hover {
+    background-color:#33ccff;
+}
+
+#tipoAnimalSelect{
+    display: none;
+}
+
+#otro{
+    display: none;
+}
+#tipoAnimalSelect{
+    display: none;
+}
+
+#otro{
+    display: none;
+}

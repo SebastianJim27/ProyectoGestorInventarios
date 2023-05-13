@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/013/651/164/non_2x/group-of-elderly-people-dancing-free-vector.jpg');
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    background-color: rgba(0,0,0,0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 86vh;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-family: 'Playfair Display', serif;
+    color:#000000;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"], input[type="password"], input[type="text"], input[type="email"]{
+    
+    width: 290px; 
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #0099cc;
+    color:#ffff;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color:#33ccff;
+}
+
+a {
+    font-size: 20px;
+    color:#000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}

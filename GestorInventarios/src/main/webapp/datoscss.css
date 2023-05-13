@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    background-image: url('https://fondosmil.com/fondo/70773.jpg');
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    
+}
+form {
+    background-color: rgba(0,0,0,0);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  
+}
+label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="number"], input[type="date"], select[id="tInventario"], select[id="buscar"], select[id="buscarTipo"]{
+    width: 290px;
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+button[type="submit"] {
+    background-color: #0066cc;
+    color:#ffff;
+    padding: 3px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.boton{
+    margin-right: 10px;
+}
+button[type="submit"]:hover {
+    background-color:#33ccff;
+}
+
+/* Estilos de la tabla */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+th {
+    background-color:#0066cc;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#tipoAnimalSelect{
+    display: none;
+}
+
+#otro{
+    display: none;
+}
